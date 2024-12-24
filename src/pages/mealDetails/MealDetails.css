@@ -1,0 +1,93 @@
+/* Auf dieser page ist die component searchbar nicht mehr bündig links, sondern klebt mehr am Rand als es soll bzw. als bei den anderen pages, ich krieg es nicht hin, es auszubessern... */
+
+
+.meal-details-page {
+    padding: 20px 40px; 
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.meal-details-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px; 
+    background-color: #96C0B7; 
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 40px;
+}
+
+.meal-details-container img {
+    width: auto;
+    max-width: 100%;
+    height: 800px; 
+    border-radius: 15px;
+    margin: 20px; 
+    object-fit: cover; 
+}
+
+.meal-details-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.meal-instructions {
+    width: 66.66%; 
+    padding: 0 20px; 
+    color: white; 
+}
+
+.meal-instructions div {
+    font-size: 1.3rem;
+}
+
+.meal-ingredients {
+    width: 33.33%; 
+    padding: 0 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white; 
+}
+
+.meal-instructions h5 {
+    color: white; 
+    font-size: 2rem;
+    margin: 0px 0px 20px;
+}
+
+.meal-ingredients h6 {
+    font-size: 2rem;
+    margin: 0px 0px 20px;
+}
+
+.meal-instructions div,
+.meal-ingredients div {
+    margin-bottom: 10px;
+    color: white; 
+}
+
+.meal-ingredients div {
+    font-size: 1.4rem; 
+    font-weight: bold; 
+}
+
+.meal-ingredients button {
+    background-color: white;
+    color: #96C0B7; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.meal-ingredients button:hover {
+    background-color: #7FA7A2; 
+    color: white; 
+}

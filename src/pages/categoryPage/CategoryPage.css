@@ -1,0 +1,53 @@
+.category-page {
+    padding: 20px 40px; 
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+.meal-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 30px;
+    padding: 0 20px;
+    flex: 1;
+}
+
+.meal-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    background-color: #d4dfc7; 
+    text-decoration: none; 
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+.meal-title:hover h3 {
+    transform: scale(1.1); 
+}
+
+.meal-title h3 {
+    margin: 0 0 10px;
+    color: white;
+    font-size: 2.7rem;
+    transition: transform 0.3s ease; 
+}
+
+.meal-title img {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h4 { 
+    color: #96C0B7; 
+    font-size: 3.2rem; 
+    text-align: left; 
+    margin-bottom: 20px; 
+    padding-left: 20px;
+}
