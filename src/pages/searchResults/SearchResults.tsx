@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./SearchResults.css";
+import "./searchResults.css";
 import { useParams, Link } from "react-router-dom";
 import { searchMealsByName } from "../../services/Api";
 import { Meal } from "../../types/Meal";
