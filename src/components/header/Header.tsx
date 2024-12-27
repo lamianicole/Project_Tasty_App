@@ -1,4 +1,4 @@
-import "./header.css";
+import "./Header.css";
 import logoImage from "../../assets/logo/tastyLogo.png"
 import SearchBar from "../searchBar/SearchBar";
 
